@@ -1,0 +1,21 @@
+<px-card header-text="Components" id="input-comp">
+<h2>Drop down</h2>
+ <px-dropdown display-value="Text">
+  <px-dropdown-content class="px-dropdown-content" max-cont-character-width="10"
+  extend-dropdown="true" extend-dropdown-by="15" items='[{"key":"one", "val": "One"}, {"key":"two", "val": "Two"}, {"key":"three", "val": "Three"}, {"key":"four", "val": "How now brown cow"}]'>
+  </px-dropdown-content>
+</px-dropdown> 
+
+<br/>
+<h2>Tool tip </h2>
+<div id="hoverDivTop" class="hover-tooltip">Hover for tooltip <span>(top, 5 sec delay)</span></div>
+    <px-tooltip   for="hoverDivTop" orientation="left"  tooltip-message="Top tooltip">
+    </px-tooltip>
+  <h2>Spinner </h2> 
+      <p style="text-align:center;">
+        <button on-tap="fireShow">Show</button>
+        <button on-tap="fireHide">Hide</button>
+        <px-spinner id="MySpinner"></px-spinner>
+      </p>
+</px-card>
+

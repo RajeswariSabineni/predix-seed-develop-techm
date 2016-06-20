@@ -1,0 +1,44 @@
+<px-card header-text="Charts"> 
+<h2>Line series</h2>
+<px-chart> 
+	<px-chart-series-line
+		id="my-series" series-obj-name-key="myName" line-width="3"
+		name="DR Aviation line series" tooltip='{"valueDecimals": 3}'
+		series-obj-data-key="myData"> 
+	</px-chart-series-line> 
+</px-chart> 
+<h2></h2>
+<px-chart> 
+<px-chart-series-bar
+		id="my-series-bar" series-obj-name-key="myName" 
+		name="DR Aviation bar series" tooltip='{"valueDecimals": 3}'
+		series-obj-data-key="myData"> 
+	</px-chart-series-bar> 
+
+</px-chart>
+<h2>Scatter series</h2>
+<px-chart> 
+<px-chart-series-scatter
+		id="my-series-scatter" series-obj-name-key="myName" 
+		name="DR Aviation scatter series" tooltip='{"valueDecimals": 3}'
+		series-obj-data-key="myData"> 
+	</px-chart-series-scatter> 
+
+</px-chart>
+<h2>Histogram Series</h2>
+<px-chart> 
+
+<px-chart-series-histogram
+		id="my-series-histogram" series-obj-name-key="myName" 
+		name="DR Aviation histogram series" tooltip='{"valueDecimals": 3}'
+		series-obj-data-key="myData"> 
+	</px-chart-series-histogram> 
+</px-chart>
+<h2>px-simple-line-chart</h2>
+<px-chart> 
+
+<px-simple-line-chart data="{{user}}"></px-simple-line-chart>
+</px-chart>
+</px-card>
+
+

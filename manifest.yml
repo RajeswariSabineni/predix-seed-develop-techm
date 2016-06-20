@@ -1,0 +1,13 @@
+---
+applications:
+  - name: naidu_dev_predix-seed
+    buildpack: https://github.com/muymoo/staticfile-buildpack.git
+    path: dist
+    memory: 64M
+    stack: cflinuxfs2
+#    services:
+#            - naidu_redis # change this to your redis service instance name
+#            - naidu-predix-views # change this to your view service instance name
+#    env:
+#      UAA_SERVER_URL: https://d8e9907b-0921-4c3c-a33e-c0b6235210cc.predix-uaa.run.aws-usw02-pr.ice.predix.io # change to your UAA instance url
+#      REDIS: redis
